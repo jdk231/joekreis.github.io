@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('/fonts/OpenDyslexic-Regular.ttf') format('truetype');
+    src: url('/fonts/OpenDyslexic-Regular.woff') format('woff');
+    src: url('/fonts/OpenDyslexic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('/fonts/OpenDyslexic-Bold.ttf') format('truetype');
+    src: url('/fonts/OpenDyslexic-Bold.woff') format('woff'); 
+    src: url('/fonts/OpenDyslexic-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'OpenDyslexic';
+    src: url('/fonts/OpenDyslexic-Italic.ttf') format('truetype');
+    src: url('/fonts/OpenDyslexic-Italic.woff') format('woff');
+    src: url('/fonts/OpenDyslexic-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('/fonts/OpenDyslexic-BoldItalic.ttf') format('truetype');
+    src: url('/fonts/OpenDyslexic-BoldItalic.woff') format('woff');
+    src: url('/fonts/OpenDyslexic-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+* {
+    font-family: 'Comic Sans MS';
+}
+
+body {
+    background-image: url('/images/023C.jpg');
+    background-repeat: repeat; /* Prevents the image from repeating */
+    
+}
+header{
+    width: 1038px;
+    height: 91px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('/images/pattern\ 171.gif');
+    background-repeat: repeat;
+}
+.dropbtn {
+    background-image: url('/images/023C.jpg');
+    background-repeat: repeat;
+    background-repeat: repeat;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.spacer {
+    background-image: url('/images/equalizer\ 13.gif');
+    width: 1078px;
+    height: 40px;
+    margin: 0 auto;
+    
+}
+main {
+    width: 1038px;
+    height: 916px;
+    background-image: url('/images/pattern\ 171.gif');
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+.body-text {
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.bottom-main {
+    
+    text-align: center;
+}
+.tiny-text {
+    font-size: 10px;
+}
